@@ -8,7 +8,6 @@ const http = require('http');
 const fs = require('fs');
 const cheerio = require('cheerio');
 let url = 'http://www.baidu.com'
-// let setu = 'https://setu.cx/'
 let baiduimg = 'https://image.baidu.com/'
 https.get(baiduimg,(res)=>{
     const {statusCode} = res;

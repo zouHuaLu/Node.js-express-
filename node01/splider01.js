@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 request({
-    url:'https://setu.cx/album',
+    url:'http://baidu.com',
     method:'get',
     path:'/album?page=1',
     headers:{
@@ -15,6 +15,6 @@ request({
 
     }
 },(err,res,body)=>{
-    fs.writeFileSync('./setu.html',body)
+    fs.writeFileSync('./dilili.html',body)
     // console.log(body.toString())
 })
