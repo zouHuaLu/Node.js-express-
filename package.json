@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/zouHuaLu/Node.js-express-#readme",
   "devDependencies": {
-    "supervisor": "^0.12.0"
+    "nodemon": "^2.0.14"
   }
 }
