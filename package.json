@@ -18,5 +18,8 @@
   "homepage": "https://github.com/zouHuaLu/Node.js-express-#readme",
   "devDependencies": {
     "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }
